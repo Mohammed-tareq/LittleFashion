@@ -1,0 +1,419 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#f0f8ff;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.header h1{
+    margin: 0px
+    ;
+}
+header a {
+    text-decoration: none;
+    
+}
+header span:hover{
+    color: #FF4400;
+}
+h1{
+    color: #FF4400;
+}
+
+span{
+    color: #FF4400;
+}
+h1 span{
+    color: black;
+}
+nav{
+    padding: 10px;
+    margin: 5px 10px 10px 10px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    display:inline;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(158, 154, 154);
+
+}
+.btn-nav:hover{
+    color: #FF4400;
+    text-decoration: underline;
+    padding-bottom:0px ;
+}
+.nav-icon img{
+    margin: 15px;
+}
+/* slied show photo */
+
+.slideshow-container{
+    position: relative;
+}
+/* ليه استخدم bottom ورافض يستخدم ايحاجه اغيرها */
+.text{
+    position: absolute;
+    display: block;
+    bottom: 150px;
+    text-align:left;
+    padding: 5px 100px;
+
+  }
+
+  .text h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+  }
+  .text p{
+    font-size: medium;
+    padding: 5px ;
+    margin: 5px 10px 20px ;
+    color: white;
+    width: 600px;
+  }
+
+  .btn{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    background-color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .btn:hover{
+    background-color: #FF4400;
+  }
+
+/* sec-2 home */
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+  
+.sec-two-home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    align-content: center;
+    margin: 20px 40px 20px 50px;
+    display: inline-block;
+    width: 300px;
+}
+.btn-home{
+    display: flex;
+    text-align: left;
+    color: rgb(175, 168, 168);
+    text-decoration: none;
+    padding: 5px 5px; 
+    width: 180px;   
+     
+}
+.btn-home:hover{
+    color: #FF4400;
+}
+
+
+.sec-2-img img{
+    width: 600px;
+    height: 400px;
+    margin: 20px 20px;
+}
+
+.sec-2-des h3{
+    
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;  
+
+}
+
+.sec-2-des p , .sec-3-des p{
+    color: rgb(175, 168, 168) ;
+}
+.sec-2-des a{
+    text-decoration: none;
+    font-size: small;
+    margin:80px 5px 0px;
+    color: rgb(175, 168, 168) ;
+    display: flex;
+    font-weight: bold;
+}
+
+.sec-2-des a:hover{
+    color: #FF4400;
+}
+
+/* sec-3-home */
+.sec-3 , .about-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f8ff;
+    align-items: center;
+    margin: 30px 0;
+}
+.sec-3-img img{
+    width: 95%;
+}
+
+.sec-3-des , .about-1-des h3{
+    text-align: left;
+    font-weight: 1000px;
+}
+
+.sec-3-des a{
+    font-weight: bold;
+    color: rgb(143, 137, 137) ;
+    font-size: 10px;
+}
+.sec-3-des a:hover{
+    color: #FF4400;
+}
+
+/* sec4-home */
+.sec-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+.sec-4 span{
+    color:rgb(143, 137, 137) ;
+}
+.sec-4 h4,a{
+    font-size: 25px;
+    font-weight: 200px;
+    text-decoration: none;
+    color: black;
+}
+.sec-4 a:hover{
+    color: #FF4400;
+}
+.card{
+    display: flexbox;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.card:hover{
+    
+}
+
+.card-img img{
+    width: 350px;
+}
+/* التحكم في الارتفاع بين البراجراف و الراس */
+.card-des {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    height: 10px;
+
+}
+.des{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    height: 10px;
+    color:  rgb(143, 137, 137);
+}
+.last-link{
+    text-align: center;
+    margin: 50px;
+}
+
+.last-link a{
+    color: rgb(143, 137, 137) ;
+}
+.last-link a:hover{
+    color: #FF4400;
+}
+
+/* footer-home */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot span{
+    color:rgb(116, 112, 112) ;
+}
+
+.foot{
+    
+    margin: 5px;
+    padding: 10px;
+   
+
+}
+.foot h3{
+    color: aliceblue;
+}
+.foot p{
+    color:rgb(116, 112, 112);
+    align-content: center;
+    text-align: center;
+}
+#no-h p{
+    margin-top: 80px;
+}
+.foot a{
+    color:rgb(116, 112, 112);
+    text-decoration: none;
+
+}
+.foot a:hover{
+    color: #f0f8ff;
+}
+  /* about */
+  .about-1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#f0f8ff;
+    align-items: center;
+    margin:10px 30px;
+}
+
+.about-1-des h3{
+    font-size: 80px;
+    font-weight: 1000px;
+    color: rgb(54, 53, 53);
+
+}
+.about-1-img img{
+    width: 700px;
+}
+/* sec-2 peo */
+  
+.people{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+    background-color: #d0d1d1;
+    height: 350px;
+}
+.people h3{
+    display: block;
+   text-align: left;
+    width: 100%;
+    margin: 80px 80px 0px 80px;
+}
+
+.card-peo{
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 350px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.pro-des img , .pro-des-2 img{
+    width: 50px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.pro-des{
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+}
+
+.pro-des-2{
+    flex-direction: row;
+    display: flex;
+    margin: 10px 200px;
+}
+.pro-des span , .pro-des-2 span{
+    color:rgb(116, 112, 112) ;
+}
+
+.customer{
+    align-items: center;
+}
+.customer p{
+    width: 900px;
+    text-align: left;
+    font-size: 25px;
+    color:rgb(116, 112, 112) ;
+    margin:10px 200px;
+}
+
+
+.span-cus {
+    text-align: left;
+    font-size: 80px;    
+    margin: 0px 10px 0px 200px;
+}
+/* contact */
+.log{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+   margin: 20px 50px;
+   flex-direction: column;
+}
+input,textarea{
+    width: 450px;
+    height: 25px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #8f9296;
+}
+.send{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    margin: 10px 130px;
+    text-align: center;
+    background-color: black;
+    color: #8f9296;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.send:hover{
+    color: white;
+}
+/* table */
+
+table{
+    margin: 50px 140px;
+}
+td{ 
+    margin: 20px;
+    padding: 20px;
+    /* border: #8f9296 solid;
+    border-collapse:collapse; */
+    
+}
+.t-a  {
+    color:rgb(116, 112, 112);
+    font-size: small;
+}
+.t-a:hover{
+    color: #FF4400;
+}
